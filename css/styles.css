@@ -6,6 +6,13 @@
 html, body{
     height: 100%;
 }
+.img1{
+    filter: invert();
+    width: 54px;
+    height: 40px;
+    background-size: 54px 40px;
+    transition: 0.5s;
+}
 .box {
     border-radius: 5px;
     color: #444;

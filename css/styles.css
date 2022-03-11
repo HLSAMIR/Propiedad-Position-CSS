@@ -8,10 +8,19 @@ html, body{
 }
 .img1{
     filter: invert();
-    width: 54px;
-    height: 40px;
+    width: 100px;
+    height: 80px;
     background-size: 54px 40px;
     transition: 0.5s;
+}
+span{
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
+    
 }
 .box {
     border-radius: 5px;
@@ -61,6 +70,7 @@ body{
     background-color: #000000;
     align-items: center;
     padding: 5em 0em 5em 0em;
+    position:relative;
 }
 
 .main-page{
@@ -83,15 +93,6 @@ section{
     align-items: center;
     justify-content: center; */
 }
-footer{
-    background-color: #e0e0e0;
-    
-    padding: 10px 13px 26px 20px ;
-    align-content: flex-end;
-    text-align: center;
-    position: fixed;
-     width: 100%;
-}
 .circle{
     display: flex;
     justify-content: center;
@@ -104,6 +105,8 @@ footer{
     background: #164DEF;
     width: 500px;
     height: 500px;
+    background: linear-gradient(90deg, rgba(102,121,9,0.22762608461353295) 12%, rgba(255,0,100,0.3984944319524685) 100%);
+    transition: 0.5s;
 }
 .two {
     background: #FE3ADD;
@@ -139,4 +142,31 @@ h1{
 .nombre{
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Questrial', sans-serif;
+}
+footer{
+    background-color: #e0e0e0;
+    padding: 100px 13px 26px 20px ;
+    align-content: flex-end;
+    text-align: center;
+    position:static;
+    width: 100%;
+}
+.foot{
+    text-align: left ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+.foot2{
+    text-align: right ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+img.c{
+    width: 40px;
+    height: 40px;
+    transition: 0.1s;
+    align-items: center;
+    position:static;
 }
